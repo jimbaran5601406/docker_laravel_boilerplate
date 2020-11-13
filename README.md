@@ -19,7 +19,13 @@ npm：6.14.6
 $ git clone git@github.com:jimbaran5601406/docker_laravel_boilerplate.git
 ```
 
-2. .env.example を.env ファイルとしてルートディレクトリに複製
+2. ルートディレクトリに src フォルダ作成
+
+```bash
+$ mkdir src
+```
+
+3. .env.example を.env ファイルとしてルートディレクトリに複製
 
     例)
 
@@ -34,7 +40,7 @@ $ git clone git@github.com:jimbaran5601406/docker_laravel_boilerplate.git
     TZ=Asia/Tokyo
     ```
 
-3. コンテナ生成
+4. コンテナ生成
 
 docker-compose.yml が配置してあるディレクトリで次のコマンドを実行
 
@@ -42,7 +48,7 @@ docker-compose.yml が配置してあるディレクトリで次のコマンド�
 $ docker-compose up -d
 ```
 
-4. Laravel の雛形生成
+5. Laravel の雛形生成
 
 laravel_boilerplate_php コンテナへ入る
 
@@ -59,7 +65,7 @@ $ docker exec -it laravel_boilerplate_php sh
 
 **/var/www/html** ディレクトリはホストマシンの **src** フォルダにマウントしている。
 
-5. Laravel の Welcome ページにアクセス  
+6. Laravel の Welcome ページにアクセス  
    <http://localhost:8080>
    ![localhost_8080_](https://user-images.githubusercontent.com/45201545/99015071-6e8dac80-2597-11eb-9c04-0d7a09285478.png)
 
