@@ -13,6 +13,10 @@ npm：6.14.6
 
 ## Laravel の Welcome ページを表示するまでの手順
 
+### 補足
+
+<p>利用頻度の高いコマンドは make コマンドで実行できます。<br>コマンド一覧 → <a href="https://github.com/jimbaran5601406/docker_laravel_boilerplate/blob/master/Makefile">コチラ</a><br><br></p>
+
 1. docker_laravel_boilerplate クローン
 
 ```bash
